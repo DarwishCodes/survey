@@ -170,11 +170,12 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0.3);
+    transform: translate(-50%, -50%) scale(2);
     background-color: rgba(225, 27, 78, 0.3);
     border-radius: 50%;
     opacity: 0;
-    transition: all 0.2s;
+    transition: all 0.5s;
+    animation-timing-function: cubic-bezier(0.14, 0.61, 0, 1.01);
     backface-visibility: hidden; }
 
 .form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
@@ -215,10 +216,11 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0.3);
+    transform: translate(-50%, -50%) scale(1.5);
     background-color: rgba(225, 27, 78, 0.3);
-    border-radius: 4px;
+    border-radius: 50%;
     opacity: 0;
+    animation-timing-function: cubic-bezier(0.14, 0.61, 0, 1.01);
     transition: all 0.2s;
     backface-visibility: hidden; }
 
