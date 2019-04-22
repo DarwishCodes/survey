@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title id="title">Survey form</title>
+    </head>
+	
+	<body>
+        <main>
+            <section class="section-form">
+                <div class="row">
+                    <div class="paper">
+                        <div class="paper__content">
+                            <div class="heading-secondry heading-secondry--red u-center-text u-margin-bottom-small u-display-block">
+                                    <h1>FEEDBACK ABOUT GCP</h1>
+                            </div>
+                            <div class="paragraph u-margin-bottom-large">
+                                    <p>Thanks for agreeing to answer a few questions about your most recent experience with GCP. Your feedback will help us improve our service.</p>
+                            </div>
+                            <form action="#" class="form">
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Full name" id="name" required>
+                                    <label for="name" class="form__label">Full name</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="email" class="form__input" placeholder="Email address" id="email" required>
+                                    <label for="email" class="form__label">Email address</label>
+                                </div>
+
+                                <div class="paragraph-2 u-margin-top-large u-margin-bottom-medium">
+                                    <p>Overall, how satisfied are you with your GCP experience from the time your account was created until now?</p>
+                                </div>
+
+                                
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="ed" name="satisficion">
+                                    <label for="ed" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Extremely dissatisfied
+                                    </label>
+                                </div>
+                                
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="md" name="satisficion">
+                                    <label for="md" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Moderately dissatisfied
+                                    </label>
+                                </div>
+
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="sd" name="satisficion">
+                                    <label for="sd" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Slightly dissatisfied
+                                    </label>
+                                </div>
+
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="nsnd" name="satisficion">
+                                    <label for="nsnd" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Neither satisfied nor dissatisfied
+                                    </label>
+                                </div>
+
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="ss" name="satisficion">
+                                    <label for="ss" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Slightly satisfied
+                                    </label>
+                                </div>
+
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="ms" name="satisficion">
+                                    <label for="ms" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Moderately satisfied
+                                    </label>
+                                </div>
+
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="es" name="satisficion">
+                                    <label for="es" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Extremely satisfied
+                                    </label>
+                                </div>
+
+                                <div class="paragraph-2 u-margin-top-large u-margin-bottom-medium">
+                                    <p>Why did you join GCP?</p>
+                                </div>
+
+                                <div class="form__checkbox-group">
+                                    <input type="checkbox" class="form__checkbox-input" id="compute">
+                                    <label for="compute" class="form__checkbox-label">
+                                        <span class="form__checkbox-button"><i class="icon ion-md-checkmark form__checkbox-icon"></i></span>
+                                        Cloud Compute
+                                    </label>
+                                </div>
+
+                                <div class="form__checkbox-group">
+                                    <input type="checkbox" class="form__checkbox-input" id="storage">
+                                    <label for="storage" class="form__checkbox-label">
+                                        <span class="form__checkbox-button"><i class="icon ion-md-checkmark form__checkbox-icon"></i></span>
+                                        Cloud Storage
+                                    </label>
+                                </div>
+
+                                <div class="form__checkbox-group">
+                                    <input type="checkbox" class="form__checkbox-input" id="networking">
+                                    <label for="networking" class="form__checkbox-label">
+                                        <span class="form__checkbox-button"><i class="icon ion-md-checkmark form__checkbox-icon"></i></span>
+                                        Cloud Networking
+                                    </label>
+                                </div>
+
+                                <div class="form__checkbox-group">
+                                    <input type="checkbox" class="form__checkbox-input" id="devtools">
+                                    <label for="devtools" class="form__checkbox-label">
+                                        <span class="form__checkbox-button"><i class="icon ion-md-checkmark form__checkbox-icon"></i></span>
+                                        Cloud Developer Tools
+                                    </label>
+                                </div>
+
+                                <div class="form__checkbox-group">
+                                    <input type="checkbox" class="form__checkbox-input" id="mantools">
+                                    <label for="mantools" class="form__checkbox-label">
+                                        <span class="form__checkbox-button"><i class="icon ion-md-checkmark form__checkbox-icon"></i></span>
+                                        Cloud Managment Tools
+                                    </label>
+                                </div>
+                                
+                                <div class="paragraph-2 u-margin-top-large u-margin-bottom-medium">
+                                    <p>What do you like most in GCP?</p>
+                                </div>
+
+                                <div class="form__dropdown-group">
+                                    <select class="form__dropdown-menu" name="best">
+                                        <option value="">Select an option</option>
+                                        <option value="#">Compute Engine</option>
+                                        <option value="#">App Engine</option>
+                                        <option value="#">Kubernetes Engine</option>
+                                    </select>
+                                </div>
+
+                                <div class="paragraph-2 u-margin-top-large u-margin-bottom-medium">
+                                    <p>Do you have any other feedback about GCP that you feel would help us improve?</p>
+                                </div>
+
+                                <div class="form__text">
+                                    <textarea name="extra" cols="10" rows="5" class="form__text-area"></textarea>
+                                </div>
+
+                                <div class="u-margin-top-large u-center-text">
+                                    <a href="#" class="btn btn--red">Submit</a>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+	</body>
+</html>
