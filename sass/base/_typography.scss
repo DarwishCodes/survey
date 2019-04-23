@@ -1,8 +1,21 @@
 .heading-primary {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     display: inline-block;
     text-transform: uppercase;
     text-align: center;
+
+
+    @include addMediaQuery(laptop) {
+        font-size: 3rem;
+    }
+
+    @include addMediaQuery(tablet) {
+        font-size: 2.5rem;
+    }
+
+    @include addMediaQuery(phone-l) {
+        font-size: 1.8rem;
+    }
 
     &--red {
         background-image: linear-gradient(to right , $color-primary-light , $color-primary-dark);
@@ -12,10 +25,15 @@
 }
 
 .heading-secondry {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     display: inline-block;
     text-transform: uppercase;
     text-align: center;
+
+    @include addMediaQuery(laptop) {
+        font-size: 2.5rem;
+    }
+
 
     &--red {
         background-image: linear-gradient(to right , $color-primary-light , $color-primary-dark);
@@ -33,8 +51,30 @@
 
 .paragraph {
     font-size: 2.2rem;
+
+    @include addMediaQuery(laptop) {
+        font-size: 2.2rem;
+    }
+
+    @include addMediaQuery(tablet) {
+        font-size: 1.9rem;
+    }
+    
+    @include addMediaQuery(phone-l) {
+        font-size: 1.6rem;
+    }
+
 }
 
 .paragraph-2 {
     font-size: 2rem;
+
+    
+    @include addMediaQuery(laptop) {
+        font-size: 1.6rem;
+    }
+
+    @include addMediaQuery(laptop) {
+        font-size: 1.6rem;
+    }
 }

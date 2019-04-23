@@ -21,7 +21,10 @@
         border-radius: 3px;
         transition: all 0.5s;
         width: 40%;
-        
+
+        @include addMediaQuery(tablet) {
+            width: 100%;
+        }
 
         &:focus {
             outline: none;
@@ -48,12 +51,17 @@
         font-size: 1.2rem;
         transform: translateY(-8rem);
         transition: all 0.5s;
+
+
+        &--bottom {
+            transform: translateY(0.3rem);
+        }
     }
 
     &__input:placeholder-shown ~ &__label {
         transform: translateY(-5rem);
         opacity: 0;
-        visibility: hidden; 
+        visibility: hidden;
     }
 
     &__radio-group:not(:last-child) {
@@ -206,6 +214,10 @@
         font-family: inherit;
         cursor: pointer;
         transition: all 0.3s;
+
+        @include addMediaQuery(phone-l) {
+            width: 100%;
+        }
 
     }
 

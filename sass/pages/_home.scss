@@ -1,3 +1,8 @@
 .section-form {
     padding: 15rem;
+
+    @include addMediaQuery(laptop) {
+        padding: 0;
+    }
+    
 }

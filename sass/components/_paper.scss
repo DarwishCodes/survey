@@ -4,6 +4,14 @@
 
     &__content {
         padding: 10rem 15rem 5rem 15rem;
+
+        @include addMediaQuery(tablet) {
+            padding: 5rem;
+        }
+
+        @include addMediaQuery(phone-m) {
+            padding: 3rem;
+        }
     }
 
 }
